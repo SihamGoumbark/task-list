@@ -40,13 +40,13 @@ export default function Dashboard({
                     </div>{' '}
                     <div className="flex gap-2">
                         <Link href={route('lists.index')}>
-                            <Button className="bg-primary hover:bg-primary/90 text-white shadow-lg">
+                            <Button className="bg-primary hover:bg-primary/90 text-white shadow-lg dark:text-black">
                                 <List className="mr-2 h-4 w-4" />
                                 View Lists
                             </Button>{' '}
                         </Link>{' '}
                         <Link href={route('tasks.index')}>
-                            <Button className="bg-primary hover:bg-primary/90 text-white shadow-lg">
+                            <Button className="bg-primary hover:bg-primary/90 text-white shadow-lg dark:text-black">
                                 <CheckCircle className="mr-2 h-4 w-4" />
                                 View Tasks
                             </Button>{' '}
